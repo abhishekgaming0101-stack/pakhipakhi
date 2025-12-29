@@ -5,26 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Letter 1</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background: linear-gradient(to bottom, #1b001b, #000);
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            justify-content: center;
+            padding: 50px 20px; /* top/bottom space */
+        }
+
+        .container {
+            max-width: 700px; /* keeps letter in center, not full width */
+            text-align: left;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(255,255,255,0.1);
+        }
+
+        .love-text {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 40px; /* space between title and body */
+            color: #ffb6c1;
+        }
+
+        .letter-body {
+            font-size: 18px;
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <h1 class="love-text">My Dearest Pakhu ❤️</h1>
 
-<div class="container">
-    <h1 class="love-text">My Dearest Pakhu ❤️</h1>
+        <p class="letter-body">
+            This is where your heart speaks. Write your letter here in VS Code. Every word is only for her.
+        </p>
 
-    <p>
-        This is where your heart speaks.  
-        Write your letter here in VS Code.  
-        Every word is only for her.
-    </p>
+        <p class="letter-body">
+            You can write long paragraphs here. Add thoughts, feelings, or memories that you both cherish. Keep it heartfelt and personal.
+        </p>
 
-    <img src="images/photo1.jpg" style="width:80%; border-radius:15px; margin:20px 0;">
-
-    <p>
-        You can write long paragraphs here.  
-        Add photos between paragraphs to make it more special.
-    </p>
-
-</div>
-
+        <p class="letter-body">
+            Remember, each word is a token of love that she can read and smile. Take your time to write with sincerity and warmth.
+        </p>
+    </div>
 </body>
 </html>
