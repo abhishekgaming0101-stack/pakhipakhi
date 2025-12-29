@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #1b001b, #000);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* TITLE + PHOTO */
+.title-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.title-section h1 {
+    font-size: 34px;
+    letter-spacing: 2px;
+    color: #ffb3c6;
+}
+
+.title-section img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ff8fab;
+}
+
+/* CENTER PHOTO */
+.center-photo img {
+    width: 220px;
+    border-radius: 20px;
+    margin: 10px auto 30px;
+    box-shadow: 0 0 20px rgba(255, 143, 171, 0.4);
+}
+
+/* LETTERS */
+.letters {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.letter-box {
+    text-decoration: none;
+    color: #ffb3c6;
+}
+
+.letter-box img {
+    width: 150px;
+    transition: transform 0.3s;
+}
+
+.letter-box:hover img {
+    transform: scale(1.1);
+}
+
+.letter-box span {
+    display: block;
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+/* COUNTER */
+.counter-section {
+    margin-top: 20px;
+}
+
+.counter-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #ffd6e0;
+    margin: 8px 0;
+}
+
+#timer {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff8fab;
+    margin: 10px 0;
+}
+
+/* FINAL LOVE TEXT */
+.final-love-text {
+    margin-top: 15px;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: #ffb3c6;
+}
